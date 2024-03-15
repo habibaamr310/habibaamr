@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <title>Website</title>
+  </head>
+  <body>
+    <header class="col container-fluid d-flex justify-content-between">
+      <!-- <img src="images/logo.png" alt="logo" height="70px" width="90px"> -->
+
+      <nav class="col navbar navbar-expand-sm">
+            <!--  -->
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fas fa-globe-europe" style="color: white;"></i><span>Earth Maps</span></a>
+        <button style="color: rgb(42, 104, 165);background-color: beige; "class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class=" offcanvas offcanvas-end navbar-toggler-icon " ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li  class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                <li  class="nav-item"><a href="#"class="nav-link">Articale</a></li>
+                <li  class="nav-item"><a href="#"class="nav-link">Sections</a></li>
+                <li  class="nav-item"><a href="#"class="nav-link">Contact Us</a></li>
+           </ul>
+            
+            <ul>
+              <li><i class="fa fa-search fa-2x nav-link"></i></li>
+              <li><i class="fa fa-user fa-2x nav-link"></i></li>
+              <li><i class="fas fa-info-circle nav-link"></i></li>
+            </ul>
+        </div> 
+        <!--  -->
+      </nav>
+    </header>
+
+    <div class="section col">
+      <div class="div1">
+        <form class="form1">
+          <caption>
+            <h2><i class="far fa-user"></i> login our website</h2>
+          </caption>
+          <label for="w">Email :</label>
+          <input type="email" required placeholder="your email" name="w" />
+
+          <label for="ww">password :</label>
+          <input
+            type="password"
+            required
+            placeholder="your password"
+            name="ww"
+          />
+          <br />
+
+          <a href="page.html"><input type="submit" value="login" class="btn1" /></a>
+          <small>Or</small>
+          <a href="form.html">
+            <input type="button" value="create a new account" class="btn2"/></a>
+        </form>
+      </div>    <!-- div1 -->
+    </div><!-- section -->
+    
+
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

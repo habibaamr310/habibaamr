@@ -1,0 +1,117 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+background: url(../pictures/earth-1.jpg) fixed no-repeat ; 
+ background-size: cover; 
+ scroll-behavior: smooth;
+
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+    background-color: rgba(245, 245, 220, 0.655);
+    display: flex;
+    justify-content:space-evenly ;
+    margin: 0px;
+ 
+
+
+}
+nav ul{
+    display: inline-block;
+    margin: auto;
+     margin: 3px 15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+}
+nav ul li a{
+ color: rgba(6, 8, 9, 0.69);
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+}
+ nav ul li a:hover{
+ transform: 2s;
+    border: 3px solid rgba(42, 42, 45, 0.818);
+    border-radius: 3px;
+    padding: 4px;
+    width: larger;
+    color: rgb(9, 9, 109);
+
+
+} 
+
+nav ul li i{
+    margin: 5px 15px;
+    font-size: 27px;
+    color: white;
+}
+/*  */
+.div1{
+    background-color: rgba(71, 71, 25, 0.293);
+    padding:5% 5%;
+    width: 600px;
+    height: 600px;
+    border-radius: 300px;
+    /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     display: grid;
+     place-items: center;
+     color: white;
+     margin:  auto;
+  
+     
+} form{
+    display: grid;
+    place-items: center;
+}
+
+.form1 .form2{
+    background-color: rgb(99, 99, 150);
+}
+.form2 h2{
+ padding: 7px 0 7px 0;
+}
+
+.form1 h2{
+    padding: 10px 0 7px 0;
+   }
+input {
+    padding: 7px;
+    display: inline-block;
+    height: 25px;
+}
+label{
+    display: inline-block;
+    color: rgb(231, 231, 163);
+}
+.btn1{
+    background-color: rgb(5, 5, 79);
+    border-radius: 5px;
+    color: azure;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+}
+.btn2{
+    background-color: rgb(32, 93, 225);
+    border-radius: 7px;
+    color: azure;
+    width: 200px;
+    height: 40px;
+    margin-top: 9px;
+    
+
+}
